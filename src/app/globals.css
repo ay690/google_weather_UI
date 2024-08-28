@@ -12,4 +12,12 @@
   .custom-text {
     @apply text-[#5F6368] sm:text-sm md:text-base lg:text-base;
   }
+
+  .btn {
+    @apply bg-[#f8f9fa] p-3 whitespace-nowrap rounded-md ring-gray-200 text-sm text-gray-800 hover:ring-1 focus:outline-none active:ring-gray-300 hover:shadow-md dark:bg-secondary-dark dark:text-gray-100;
+  }
+
+  .lang-btn {
+    @apply text-[#3878e8] cursor-pointer
+  }
 }

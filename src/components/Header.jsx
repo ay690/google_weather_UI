@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { RiGridFill } from "react-icons/ri";
 
 const Header = () => {
