@@ -1,13 +1,12 @@
-import Header from "@/components/Header";
 import Search from "@/components/Search";
+import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-
 export default function Home() {
   return (
-    <main className="flex flex-col min-h-screen items-center justify-center">
+    <div className="flex flex-col items-center justify-center min-h-screen">
       <Header />
       <Search />
       <Footer />
-    </main>
+    </div>
   );
 }
